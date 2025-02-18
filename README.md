@@ -1,0 +1,3 @@
+# Unexpected String Concatenation in JavaScript
+
+This example demonstrates a common error in JavaScript where a type mismatch in function arguments leads to unexpected string concatenation instead of the intended arithmetic operation.  The function `foo` expects two numbers, but `bar` passes a number and a string. JavaScript's loose typing allows this, but results in unintended behavior. The solution demonstrates adding type checking to prevent this issue.
